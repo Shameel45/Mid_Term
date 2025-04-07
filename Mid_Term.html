@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+        #introduction{
+            background-color: rgb(37, 37, 37);
+            height: 300px;
+            width: 100%;
+        }
+        .navigation{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .nav_links{
+            list-style: none;
+        }
+        .nav_heading{
+            color: white;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .nav_links ul{
+            display: flex;
+            color: white; 
+            flex-wrap: wrap;  
+        }
+        .nav_links ul li{
+            text-decoration: none;
+            margin: 15px;
+        }
+        .nav_links ul li a{
+            color: white;
+            font-size: 12px;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+        }
+        .nav_links ul li a:hover{
+            color: silver;
+            font-size: 15px;
+        }
+        .intro{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            color: white;
+        }
+        #we_do{
+            
+            text-align: center;
+            height: 500px;
+            width: 100%;
+            background-color:;
+        }
+        .explanation{
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            color: black;
+        }
+        div span{
+            height: 120px;
+            
+            width: 280px;
+            text-align: center;
+            background-color: ;
+            display: flex;
+            border: 2px solid silver;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .new_offers{
+            margin-top: 20px;
+            background-color:rgb(37, 37, 37) ;
+            height: 300px;
+            display: flex;
+            color: white;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .exp{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .pics img{
+            height: 100px;
+            width: 200px;
+            
+        }
+        .links{
+            margin-top: 20px;
+        }
+        .portfolio{
+            height: 300px;
+            margin-top: 30px;
+            background-color: red;
+        }
+        .port_links{
+            
+        }
+        .port_links ul{
+            list-style: none;
+            display: flex;
+            margin: 10px;
+            
+        }
+        .port_links ul li{
+            text-decoration: none;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header id="introduction">
+        <nav class="navigation">
+            <h1 class="nav_heading">Meteor</h1>
+            <div class="nav_links">
+                <ul style="list-style: none;">
+                    <li><a href="#introduction">HOME</a></li>
+                    <li><a href="#we_do">ABOUT US</a></li>
+                    <li><a href="">PORTFOLIO</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="intro">
+            <i>Introduction to</i>
+            <h1 >CREATIVE METEOR</h1>
+            <article style="margin-top: 6px; display: flex; flex-direction: column;">
+                <i>This website is created for the sake of attaining good marks in mid terms</i>
+                <i>with the courtesy of Sir Abdul Malik</i>
+            </article>
+            <a href="#" style="border:1px solid white; border-radius: 10px;  padding: 7px; background-color: silver; color: white; margin-top: 6px; text-decoration: none;">DISCOVER MORE</a>
+        </div>
+    </header>
+    <main>
+        <section id="we_do">
+            <h5 style="text-align: center; padding-top: 15px;"><b >WHAT WE DO</b></h3>
+                <div class="explanation">
+                    <span class="easy">
+                        <img style="height: 20px; width: 20px;" src="#" alt="img">
+                        <h5><b>Easy Customisations</b></h5>
+                        <article style="display: flex; flex-direction: column ;">
+                            <i>Meteor is a free HTML website</i>
+                            <i>template by Toolplate.Feel free to</i>
+                            <i>use this layout for your project</i>
+                        </article>
+                    </span>
+                    <span class="ideas">
+                        <img style="height: 20px; width: 20px;" src="#" alt="img">
+                        <h5><b>Creative Ideas</b></h5>
+                        <article style="display: flex; flex-direction: column ;">
+                            <i>Meteor is a free HTML website</i>
+                            <i>template by Toolplate.Feel free to</i>
+                            <i>use this layout for your project</i>
+                        </article>
+                    </span>
+                    <span class="profit">
+                        <img style="height: 20px; width: 20px;" src="#" alt="img">
+                        <h5><b>Good Profit</b></h5>
+                        <article style="display: flex; flex-direction: column ;">
+                            <i>Meteor is a free HTML website</i>
+                            <i>template by Toolplate.Feel free to</i>
+                            <i>use this layout for your project</i>
+                        </article>
+                    </span>
+                    <span class="open">
+                        <img style="height: 20px; width: 20px;" src="#" alt="img">
+                        <h5><b>Open to Public</b></h5>
+                        <article style="display: flex; flex-direction: column ;">
+                            <i>Meteor is a free HTML website</i>
+                            <i>template by Toolplate.Feel free to</i>
+                            <i>use this layout for your project</i>
+                        </article>
+                    </span>
+                </div>
+                <div class="new_offers">
+                    <div class="exp">
+                        <h3 style="margin-top: 10px;">New Offers just arrived, <br>
+                        Get it now and take profit</h3>
+                        <article style="margin-top: 10px;">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate,<br>
+                            iusto aliquid sapiente voluptas aperiam suscipit vitae odio odit <br>
+                            deleniti accusamus quidem maiores expedita atque ducimus rem animi. <br>
+                            Corrupti, tenetur mollitia? 
+                        </article>
+                        <article style="margin-top: 10px;">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, <br>
+                            iusto aliquid sapiente voluptas aperiam suscipit vitae odio odit <br>
+                            deleniti accusamus quidem maiores expedita atque ducimus rem animi. <br>
+                            Corrupti, tenetur mollitia?
+                        </article>
+                        <div class="links">
+                            <a href="#" style="border:1px solid white; border-radius: 10px;  padding: 7px; background-color: white; color: black; margin-top: 6px; text-decoration: none;">Discover More</a>
+                            <a href="#" style="border:1px solid white; border-radius: 10px;  padding: 7px; background-color: silver; color: white; margin-top: 6px; margin-left: 10px; text-decoration: none;">Purchase Now</a>
+                        </div>
+                    </div>
+                    <div class="pics">
+                        <img src="#" alt="img">
+                        <img src="#" alt="img">
+                        <img src="#" alt="img">
+                    </div>
+        </section>
+        <section class="portfolio">
+            <h3 style="text-align: center;"><b>Our Portfolio</b></h3>
+            <div class="port_links">
+            <ul>
+                <li><a href="">All</a></li>
+                <li><a href="">Nature</a></li>
+                <li><a href="">Workspace</a></li>
+                <li><a href="">City</a></li>
+                <li><a href="">TEchnology</a></li>
+            </ul>
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
